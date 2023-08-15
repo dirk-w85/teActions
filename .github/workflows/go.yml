@@ -20,7 +20,7 @@ jobs:
         check-latest: true
 
     - name: Build
-      run: go build -o teActions src/main.go
+      run: go build -o teAction src/main.go
 
     - uses: actions/upload-artifact@v3
       with:
