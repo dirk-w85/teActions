@@ -45,4 +45,5 @@ jobs:
       run: ls -R
 
     - name: run
-      run: ./teAction
+      #run: ./teAction
+      run: go run src/main.go
