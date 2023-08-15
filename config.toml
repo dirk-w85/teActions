@@ -1,0 +1,4 @@
+# Global Settings
+[global]
+debug = true
+interval = 60
